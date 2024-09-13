@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="  -UA-Compatible" content="IE=edge">
+<meta name="keywords" content="Site Mobile, Site Responsivo, Responsividade" />
+<title>Site Responsivo</title>
+<meta name="description" content="Site prático de Responsividade Mobile">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Ítalo Nunes">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel= 'https://fonts.googleaps.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="icon" href="img/icon1.jpg">
+</head>
+<body>
+    <!-- CABEÇALHO --> 
+    <header class="cabecalho container">
+        <a href="index.html"><h1 class="logo"> Site Responsivo </h1></a>
+        <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cliente</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>          
+    </header>
+    <!-- BANNER --> 
+    <div class="banner container">
+        <div class="title">
+            <h2> Carros, </h2>
+            <h3> Corrida automobilística</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-cadastrar bg-white radius"> Cadastrar <i class="fa fa-arrow-circle-right"></i></button>
+            <button class="btn btn-sobre bg-black radius"> Sobre <i class="fa fa-question-circle"></i></button>
+        </div>
+    </div>
+    <!-- SERVICOS --> 
+    <main class="servicos container">
+        <article class="servico bg-white radius">
+            <a href="#"><img src="https://mobilidade.estadao.com.br/wp-content/uploads/2022/03/corrida-inedita-no-Brasil.jpg" alt="Campanhas publicitárias"></a>
+            <div class="inner">
+                <a href="#"> CARROS</a>
+                <h4></h4>
+                <p>Um carro de corrida tem basicamente cinco elementos que precisam funcionar perfeitamente bem para um resultado satisfatório na pista, são eles: piloto, chassi (suspensão, direção e freios), potência, pneus (aderência) e vento (aerodinâmica). </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"><img src="https://cdn.pixabay.com/photo/2017/09/21/02/19/engine-2770374_1280.jpg"></a>
+            <div class="inner">
+                <a href="#"> MOTOR </a>
+                <h4></h4>
+                <p>Os motores dos carros variam por equipes, com as equipes mais bem-sucedidas normalmente os motores possui uma maior potência do que as demais. Pondedo chegar cerca de 1.050 cavalos de potência por carro.  </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"><img src="https://www.portalautoshopping.com.br/blog/wp-content/uploads/2017/06/campeonato-brasileiro-de-turismo-1024x682.jpg"></a>
+            <div class="inner">
+            <a href="#"> AUTOMOBILISMO </a>
+            <h4></h4>
+            <p>O automobilismo é um desporto relacionado com competição com automóveis. É um dos desportos mais populares do mundo e aquele em que a comercialização seja mais intensa e de forte influência midiática.  </p>
+        </article>
+    </main>
+    <!-- NEWSLETTER -->
+    <section class="newsletter container bg-black">
+        <h2> Inscreva-se agora! </h2>
+        <h3>  Receba novidades, dicas e muito mais </h3>
+        <form>
+            <input class="bg-black radius" type="email" name="email" placeholder="Seu email">
+            <button class="bg-white radius"> Cadastrar </button>
+        </form>
+    </section>
+    <!-- RODAPÉ -->
+    <footer class="rodape container bg-gradient">
+        <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-google"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+        <p class="copyright">
+        Copyright © Ítalo Nunes 2022. Todos os direitos reservados.
+    </footer>       
+    
+    <!-- JQUERY --> 
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+    $(".btn-menu").click(function(){
+        $(".menu").show();
+    });
+    $(".btn-close").click(function(){
+        $(".menu").hide();
+    });
+    </script>      
+</body>
+</html>
